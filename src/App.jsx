@@ -1,9 +1,11 @@
-import './App.css'
+import './index.css'
+import React from 'react'
+import Header from './components/Header.jsx'
 
 export default function App() {
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
-    </main>
+    <div>
+      <Header />
+    </div>
   )
 }
