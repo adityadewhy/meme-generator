@@ -36,6 +36,7 @@ a {
 .form {
   padding:10px;
 }
+
 form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -45,4 +46,10 @@ form {
 .form-btn {
   grid-column-start: 1;
   grid-column-end: 3;
+}
+
+.meme--image {
+  padding: 7px;
+  max-width: 100%;
+  
 }
