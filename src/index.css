@@ -32,3 +32,17 @@ a {
 .header--image {
   height: 100%;
 }
+
+.form {
+  padding:10px;
+}
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7px;
+}
+
+.form-btn {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
