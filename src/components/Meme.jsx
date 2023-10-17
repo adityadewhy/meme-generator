@@ -31,7 +31,7 @@ export default function Meme() {
   }
 
   return (
-    <>
+    <div className='main'>
 
       <div className='form'>
           <input 
@@ -56,8 +56,12 @@ export default function Meme() {
           </button>
       </div>
 
-      <img src={meme.memeImage} className="meme--image" />
+      <div className='meme'>
+        <img src={meme.memeImage} className="meme--image" />
+        <h2 className='meme--text meme--top--text'>{meme.topText}</h2>
+        <h2 className='meme--text meme--bottom--text'>{meme.bottomText}</h2>
+      </div>   
 
-    </>
+    </div>
   )
 }
